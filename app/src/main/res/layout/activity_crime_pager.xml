@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:id="@+id/liner_root"
+    tools:context="com.example.amin.criminalintent.CrimePagerActivity">
+
+    <Button
+        android:id="@+id/go_to_forst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="go to first" />
+
+    <Button
+        android:id="@+id/go_to_lost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="go to last" />
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/crime_view_pager">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>
